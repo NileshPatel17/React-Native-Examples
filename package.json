@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeExamples",
+  "name": "React-Native-Examples",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "0.61.5",
+    "react-native-safe-area-context": "^0.6.2",
+    "react-native-safe-area-view": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -25,5 +27,9 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "author": {
+    "name": "Nilesh Patel",
+    "email": "nilesh.nvs@hotmail.com"
   }
 }
